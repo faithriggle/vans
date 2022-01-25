@@ -1,0 +1,14 @@
+.hover {
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: red;
+}
+
+.mar {
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+.searchSize {
+    width: 500px;
+}
