@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 
-@Component({
+@Component ({
     selector: 'vans-topnavbar',
     templateUrl: 'topnavbar.component.html',
     styleUrls: ['topnavbar.component.css']

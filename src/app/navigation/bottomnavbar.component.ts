@@ -5,6 +5,8 @@ import { Component } from "@angular/core";
     templateUrl: 'bottomnavbar.component.html',
     styleUrls: ['bottomnavbar.component.css']
 })
+    
+
 export class bottomNavBarComponent {
 
 }
