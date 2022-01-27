@@ -1,0 +1,17 @@
+.carheight {
+    width: 225px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.arrows {
+    color: black;
+}
+
+.carsize {
+    margin-left: auto;
+    margin-right: auto;
+}
+
