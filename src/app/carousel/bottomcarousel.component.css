@@ -1,9 +1,16 @@
 .carheight {
-    width: 225px;
-    height: 250px;
+    width: 275px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
+}
+
+.carheight2 {
+    width: 275px;
+    height: 300px;
+    margin-left: 200px;
+    margin-bottom: 0px;
 }
 
 .arrows {
