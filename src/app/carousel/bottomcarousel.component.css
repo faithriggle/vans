@@ -22,3 +22,17 @@
     margin-right: auto;
 }
 
+.carouselSize {
+    width: 1400px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.arrowMargin {
+    margin-left: 100px;
+}
+
+.arrowMarginRight {
+    margin-right: 100px;
+}
+
