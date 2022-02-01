@@ -4,3 +4,12 @@
     color: red;
 }
 
+.dropSize {
+    width: 3000px;
+    margin-left: 0px;
+}
+
+a:hover {
+    color: red;
+  }
+
