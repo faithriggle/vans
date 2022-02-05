@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component ({
     selector: 'vans-newscards',
@@ -6,5 +6,14 @@ import { Component } from "@angular/core";
     styleUrls: ['newsCards.component.css']
 })
 export class newsCardsComponent {
+    @Input()
+    img: string;
+    title: string;
+    description: string;
 
+    constructor() {
+        this.img = "";
+        this.title = "";
+        this.description = "";
+    }
 }

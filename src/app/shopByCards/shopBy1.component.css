@@ -1,0 +1,13 @@
+.imgSize {
+    width: 500px;
+    height: 400px;
+}
+
+.cardMargin {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: red;
+  }

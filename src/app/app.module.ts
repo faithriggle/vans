@@ -5,6 +5,7 @@ import { bottomCarouselComponent } from './carousel/bottomcarousel.component';
 import { bottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { topNavBarComponent } from './navigation/topnavbar.component';
 import { newsCardsComponent } from './newsCards/newsCards.component';
+import { shopBy1Component } from './shopByCards/shopBy1.component';
 
 
 
@@ -14,7 +15,8 @@ import { newsCardsComponent } from './newsCards/newsCards.component';
     bottomNavBarComponent,
     topNavBarComponent,
     bottomCarouselComponent,
-    newsCardsComponent
+    newsCardsComponent,
+    shopBy1Component
   ],
   imports: [
     BrowserModule
