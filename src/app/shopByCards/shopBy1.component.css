@@ -11,3 +11,7 @@
 a:hover {
     background-color: red;
   }
+
+.imgShade {
+    filter: brightness(50%);
+}
