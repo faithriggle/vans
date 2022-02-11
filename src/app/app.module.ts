@@ -6,6 +6,9 @@ import { bottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { topNavBarComponent } from './navigation/topnavbar.component';
 import { newsCardsComponent } from './newsCards/newsCards.component';
 import { shopBy1Component } from './shopByCards/shopBy1.component';
+import { AppRoutingModule } from './app-routing.module';
+import { MensNewArrivalsLayoutComponent } from './routing/mens-new-arrivals-layout.component';
+import { HomeLayoutComponent } from './routing/home-layout.component';
 
 
 
@@ -16,10 +19,13 @@ import { shopBy1Component } from './shopByCards/shopBy1.component';
     topNavBarComponent,
     bottomCarouselComponent,
     newsCardsComponent,
-    shopBy1Component
+    shopBy1Component,
+    MensNewArrivalsLayoutComponent,
+    HomeLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

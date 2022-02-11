@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white mar">
     <!--Vans logo-->
     <div class="container mar" style="margin-left: 100px;">
-    <a class="navbar-brand" href="#">
+    <a routerLink="home" class="navbar-brand" href="#">
       <img src="/assets/logo.png" alt="" width="180px">
     </a>
     </div>
@@ -15,15 +15,15 @@
         </li>
   
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle fw-bold text-black" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle fw-bold text-black" href="#" id="mensDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <a class="text-muted fw-light">/</a>
             Mens
           </a>
-          <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+          <ul class="dropdown-menu bg-dark" aria-labelledby="mensDropdown">
             <div class="d-flex flex-nowrap">
               <ul class="list-unstyled order-2 p-2 bd-highlight">
                 <li class="text-white fw-bold text-nowrap ">FEATURED</li><br>
-                <li><a href="#" class="list-unstyled link-info text-decoration-none fw-bold text-nowrap">NEW ARRIVALS</a></li><br>
+                <li><a routerLink="mens-new-and-popular-arrivals" href="#" class="list-unstyled link-info text-decoration-none fw-bold text-nowrap">NEW ARRIVALS</a></li><br>
                 <li><a href="#" class="list-unstyled link-info text-decoration-none fw-bold text-nowrap">CUSTOMS</a></li><br>
                 <li><a href="#" class="list-unstyled link-info text-decoration-none fw-bold text-nowrap">ALL WEATHER MTE</a></li><br>
                 <li><a href="#" class="list-unstyled link-info text-decoration-none fw-bold text-nowrap">SNOWBOARD BOOT GUIDE</a></li><br>
