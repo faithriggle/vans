@@ -9,6 +9,10 @@ import { shopBy1Component } from './shopByCards/shopBy1.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MensNewArrivalsLayoutComponent } from './routing/mens-new-arrivals-layout.component';
 import { HomeLayoutComponent } from './routing/home-layout.component';
+import { DroplistLayoutComponent } from './routing/droplist-layout.component';
+import { CartLayoutComponent } from './routing/cart-layout.component';
+import { OrderStatusLayoutComponent } from './routing/order-status-layout.component';
+import { GiftCardLayoutComponent } from './routing/gift-card-layout.component';
 
 
 
@@ -21,7 +25,11 @@ import { HomeLayoutComponent } from './routing/home-layout.component';
     newsCardsComponent,
     shopBy1Component,
     MensNewArrivalsLayoutComponent,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    DroplistLayoutComponent,
+    CartLayoutComponent,
+    OrderStatusLayoutComponent,
+    GiftCardLayoutComponent
   ],
   imports: [
     BrowserModule,
