@@ -27,3 +27,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 testing
+
+## Lab 4 Release Notes
+- New Features:
+
+1. Created new folder, "routing" for all routing layout components
+2. Generated "app-routing.module.ts", and added imports and exports
+3. Created layout components for the home page, Men's New Arrivals, Gift Card, Cart, DropList, and Order Status 
+4. Created routes inside "app-routing.module.ts" for each layout component
+5. Connected each route to links inside the top navigation bar
+- Van's logo -> home page
+- Mens dropdown -> NEW ARRIVALS link -> Men's New Arrivals page 
+- Cart Link -> Cart Page'
+- Order Status Link -> Order Status Page 
+- DropList Link -> DropList Page 
+- Gift Card Link -> Gift Card Page 
+
+
+- Bonus Features
