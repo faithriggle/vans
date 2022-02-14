@@ -29,13 +29,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 testing
 
 ## Lab 4 Release Notes
-- New Features:
+New Features:
 
 1. Created new folder, "routing" for all routing layout components
 2. Generated "app-routing.module.ts", and added imports and exports
 3. Created layout components for the home page, Men's New Arrivals, Gift Card, Cart, DropList, and Order Status 
 4. Created routes inside "app-routing.module.ts" for each layout component
-5. Connected each route to links inside the top navigation bar
+5. Connected each route to links inside the top navigation bar:
 - Van's logo -> home page
 - Mens dropdown -> NEW ARRIVALS link -> Men's New Arrivals page 
 - Cart Link -> Cart Page'
@@ -44,4 +44,4 @@ testing
 - Gift Card Link -> Gift Card Page 
 
 
-- Bonus Features
+Bonus Features:
