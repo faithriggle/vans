@@ -1,0 +1,34 @@
+.margin {
+    margin-bottom: 100px;
+}
+
+.cardSize {
+    width: 600px;
+    height: 650px;
+}
+
+.buttonMargin {
+    margin-bottom: 200px;
+    margin-left: 180px;
+}
+
+.imgSize {
+    width: 585px;
+    height: 600px;
+}
+
+.buttonSize {
+    width: 200px;
+    height: 50px;
+}
+
+.buttonText {
+    font-weight: bolder;
+    text-size-adjust: auto;
+    vertical-align: middle;
+}
+
+.groupWidth {
+    width: 1800px;
+    margin-left: auto;
+}

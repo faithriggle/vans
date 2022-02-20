@@ -7,6 +7,7 @@ import { DroplistLayoutComponent } from './routing/droplist-layout.component';
 import { CartLayoutComponent } from './routing/cart-layout.component';
 import { OrderStatusLayoutComponent } from './routing/order-status-layout.component';
 import { GiftCardLayoutComponent } from './routing/gift-card-layout.component';
+import { MTELayoutComponent } from './routing/mte-layout.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -15,7 +16,8 @@ const routes:Routes = [
   {path: 'droplist', component: DroplistLayoutComponent},
   {path: 'cart', component: CartLayoutComponent},
   {path: 'order-lookup', component: OrderStatusLayoutComponent},
-  {path: 'gift-card', component: GiftCardLayoutComponent}
+  {path: 'gift-card', component: GiftCardLayoutComponent},
+  {path: 'MTE', component: MTELayoutComponent}
 ];
 
 @NgModule({

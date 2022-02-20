@@ -13,6 +13,9 @@ import { DroplistLayoutComponent } from './routing/droplist-layout.component';
 import { CartLayoutComponent } from './routing/cart-layout.component';
 import { OrderStatusLayoutComponent } from './routing/order-status-layout.component';
 import { GiftCardLayoutComponent } from './routing/gift-card-layout.component';
+import { MTELayoutComponent } from './routing/mte-layout.component';
+import { MTEShopCardsComponent } from './MTEComponents/MTE-shop-cards.component';
+import { MTEBlack_WhiteComponent } from './MTEComponents/MTE-b&w.component';
 
 
 
@@ -29,7 +32,10 @@ import { GiftCardLayoutComponent } from './routing/gift-card-layout.component';
     DroplistLayoutComponent,
     CartLayoutComponent,
     OrderStatusLayoutComponent,
-    GiftCardLayoutComponent
+    GiftCardLayoutComponent,
+    MTELayoutComponent,
+    MTEShopCardsComponent,
+    MTEBlack_WhiteComponent
   ],
   imports: [
     BrowserModule,
