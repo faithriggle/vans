@@ -16,6 +16,7 @@ import { GiftCardLayoutComponent } from './routing/gift-card-layout.component';
 import { MTELayoutComponent } from './routing/mte-layout.component';
 import { MTEShopCardsComponent } from './MTEComponents/MTE-shop-cards.component';
 import { MTEBlack_WhiteComponent } from './MTEComponents/MTE-b&w.component';
+import { MTEMainComponent } from './MTEComponents/MTE-main.component';
 
 
 
@@ -35,7 +36,8 @@ import { MTEBlack_WhiteComponent } from './MTEComponents/MTE-b&w.component';
     GiftCardLayoutComponent,
     MTELayoutComponent,
     MTEShopCardsComponent,
-    MTEBlack_WhiteComponent
+    MTEBlack_WhiteComponent,
+    MTEMainComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,25 @@
+.cardSize {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textFormat {
+    font-weight: bold;
+    text-align: center;
+    margin-left: 350px;
+}
+
+a:hover {
+    color: red;
+  }
+
+.logoFormat {
+    margin-left: 50px;
+    width: 95px;
+}
+
+.buttonFormat {
+    margin-right: 100px;
+    font-weight: bold;
+}
