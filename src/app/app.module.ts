@@ -17,6 +17,7 @@ import { MTELayoutComponent } from './routing/mte-layout.component';
 import { MTEShopCardsComponent } from './MTEComponents/MTE-shop-cards.component';
 import { MTEBlack_WhiteComponent } from './MTEComponents/MTE-b&w.component';
 import { MTEMainComponent } from './MTEComponents/MTE-main.component';
+import { mensTopComponent } from './mensNewArrivals/top.component';
 
 
 
@@ -37,7 +38,8 @@ import { MTEMainComponent } from './MTEComponents/MTE-main.component';
     MTELayoutComponent,
     MTEShopCardsComponent,
     MTEBlack_WhiteComponent,
-    MTEMainComponent
+    MTEMainComponent,
+    mensTopComponent
   ],
   imports: [
     BrowserModule,

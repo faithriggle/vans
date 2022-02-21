@@ -1,0 +1,51 @@
+.cardSize {
+    height: 400px;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textFormat1 {
+    font-size: 65px;
+    margin-left: 120px;
+    font-weight: bolder;
+    word-spacing: 0px;
+}
+
+.textFormat2 {
+    margin-left: 120px;
+}
+
+.buttonFormat {
+    margin-left: 120px;
+}
+
+.picSize {
+    width: 200px;
+    margin-right: 100px;
+}
+
+.pic1 {
+    margin-right: 100px;
+}
+
+.groupSize {
+    width: 1000px;
+}
+
+.margin {
+    margin-right: 200px;
+    margin-top: 40px;
+    background: transparent;
+}
+
+.imageFormat {
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cardFormat {
+    margin-left: 10px;
+    margin-right: 10px;
+}
