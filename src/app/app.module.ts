@@ -18,6 +18,8 @@ import { MTEShopCardsComponent } from './MTEComponents/MTE-shop-cards.component'
 import { MTEBlack_WhiteComponent } from './MTEComponents/MTE-b&w.component';
 import { MTEMainComponent } from './MTEComponents/MTE-main.component';
 import { mensTopComponent } from './mensNewArrivals/top.component';
+import { MensCategoriesComponent } from './mensNewArrivals/mens-categories.component';
+import { ProductCardComponent } from './mensNewArrivals/productCards/productCard.component';
 
 
 
@@ -39,7 +41,9 @@ import { mensTopComponent } from './mensNewArrivals/top.component';
     MTEShopCardsComponent,
     MTEBlack_WhiteComponent,
     MTEMainComponent,
-    mensTopComponent
+    mensTopComponent,
+    MensCategoriesComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,

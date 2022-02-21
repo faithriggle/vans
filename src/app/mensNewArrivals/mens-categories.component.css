@@ -1,0 +1,18 @@
+.margin {
+    margin-left: 130px;
+}
+
+.header {
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.check {
+    font-size: 20px;
+}
+
+.minimize {
+    font-weight: bold;
+    margin-right: 0px;
+}

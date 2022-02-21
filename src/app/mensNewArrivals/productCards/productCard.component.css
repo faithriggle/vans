@@ -1,0 +1,32 @@
+.cardSize {
+    width: 400px;
+    height: 550px;
+}
+
+.margin {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgSize {
+    width: 400px;
+    height: 550px;
+}
+
+.heart {
+    margin-left: 200px;
+}
+
+.textFormat1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textFormat2 {
+    font-size: 20px;
+}
+
+.spacing {
+    line-height: 50%;
+}
