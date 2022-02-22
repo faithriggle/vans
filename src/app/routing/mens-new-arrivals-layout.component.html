@@ -7,6 +7,16 @@
 </div>
 
 <div class="p-2">
-    <vans-mens-products></vans-mens-products>
+    <div class="row row-cols-3">
+        <div *ngFor="let product of products">
+            <div class="col">
+                <div>
+                    <vans-mens-products img={{product.img}} [price]='product.price' desc1={{product.desc1}} desc2={{product.desc2}} quantity={{product.quantity}}>
+                        Loading...
+                    </vans-mens-products>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </div>
