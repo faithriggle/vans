@@ -15,3 +15,17 @@ New Features:
 
 
 Bonus Features:
+______________________________________________________________________________________________________________________________
+LAB 5 RELEASE NOTES
+New Features:
+1. Added new route for MTE page, connected route to "MTE" in top navbar
+2. Created folder "MTEComponents"
+3. Added component "MTE-main" to top of MTE route 
+4. Added component "MTE-b&w" below "MTE-main" component
+5. Added component "MTE-shop-cards" component at bottom of MTE page (**not using ngFor loop**)
+6. Created folder "mensNewArrivals" 
+7. Added component "top.component" to top of Men's New Arrivals page
+8. Added component "mens-categories" to lefthand side of Men's New Arrivals page 
+9. USING NGFOR LOOP - added 9 unique product cards to Men's New Arrivals Page
+
+Bonus Features: 
