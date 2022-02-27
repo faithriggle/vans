@@ -29,3 +29,14 @@ New Features:
 9. USING NGFOR LOOP - added 9 unique product cards to Men's New Arrivals Page
 
 Bonus Features: 
+______________________________________________________________________________________________________________________________
+LAB 6 RELEASE NOTES
+New Features:
+1. created account for FireBase
+2. created RealTime Databse with attributes for FirstName, LastName, GitHub, and mix_id
+3. created new component in VS called "my-info"
+4. created model class "my-info.model.ts" for all attributes listed above 
+5. connected "my-info.component.ts" to the backend database 
+6. created top bar with info in "my-info.component.html"
+
+Bonus Features:
