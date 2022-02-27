@@ -20,7 +20,8 @@ import { MTEMainComponent } from './MTEComponents/MTE-main.component';
 import { mensTopComponent } from './mensNewArrivals/top.component';
 import { MensCategoriesComponent } from './mensNewArrivals/mens-categories.component';
 import { ProductCardComponent } from './mensNewArrivals/productCards/productCard.component';
-
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -43,11 +44,13 @@ import { ProductCardComponent } from './mensNewArrivals/productCards/productCard
     MTEMainComponent,
     mensTopComponent,
     MensCategoriesComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
