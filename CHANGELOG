@@ -40,3 +40,12 @@ New Features:
 6. created top bar with info in "my-info.component.html"
 
 Bonus Features:
+_____________________________________________________________________________________________________________________________
+LAB 7 RELEASE NOTES
+New Features:
+1. created new section of RealTime Database for "shopBy" for the shopBy cards 
+2. added information for all three "shopBy" cards
+3. created "shopBy.service.ts" to connect to the backend 
+4. changed "home-layout.component.ts" to include backend connected for the shopByServices
+
+Bonus Features: 
