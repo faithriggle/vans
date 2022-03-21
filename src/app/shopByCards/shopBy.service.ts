@@ -1,4 +1,4 @@
-import { HttpClient } from "@angular/common/http"
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 import { Injectable } from "@angular/core";
 import { ProductModel } from "./product.model"
 
@@ -6,14 +6,12 @@ import { ProductModel } from "./product.model"
     providedIn: 'root'
 })
 export class shopByServices {
-    private baseUrl:string = "https://vans-app-b9fa4-default-rtdb.firebaseio.com/"
-    private shopByEndpoint:string = "shopby.json"
 
-    constructor(private http:HttpClient) {
+    constructor(private db:AngularFireDatabase) {
         
     }
 
     public getShopBy() {
-        return this.http.get<ProductModel []>("this.baseUrl + this.shopByEndpoint");
+        return this.db.list<ProductModel>("products").valueChanges();
     }
 }

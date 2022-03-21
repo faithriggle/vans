@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "vans-app-b9fa4"
+  },
+  "targets": {
+    "vans-app-b9fa4": {
+      "hosting": {
+        "vans": [
+          "vans-app-b9fa4"
+        ]
+      }
+    }
+  }
+}

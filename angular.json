@@ -106,6 +106,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "vans:build:production",
+            "firebaseProject": "vans-app-b9fa4",
+            "firebaseHostingSite": "vans-app-b9fa4"
+          }
         }
       }
     }
