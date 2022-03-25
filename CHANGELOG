@@ -50,3 +50,12 @@ New Features:
 4. changed "home-layout.component.ts" to include backend connected for the shopByServices
 
 Bonus Features: 
+_____________________________________________________________________________________________________________________________
+LAB 8 RELEASE NOTES
+New Features:
+1. Deployed website: https://vans-app-b9fa4.web.app/
+2. Configured Angular Firebase Library
+3. Modified service for shopBy cards by adding AngularFireDatabase dependency
+4. Fetched data with angular fire instead of HTTPClient 
+
+Bonus Features:
