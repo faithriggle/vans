@@ -1,0 +1,46 @@
+<div class="container margins">
+    <div class="row">
+        <div>
+            <form #postForm="ngForm" (ngSubmit)="addProduct(postForm.value)">
+
+                <div class="input-group padding sizing margins">
+                    <span class="input-group-text">
+                        Image Path:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img">
+                </div>
+
+                <div class="input-group padding sizing margins">
+                    <span class="input-group-text">
+                        Price:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="price">
+                </div>
+
+                <div class="input-group padding sizing margins">
+                    <span class="input-group-text">
+                        Product Attribute:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="desc1">
+                </div>
+
+                <div class="input-group padding sizing margins">
+                    <span class="input-group-text">
+                        Product Name:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="desc2">
+                </div>
+
+                <div class="input-group padding sizing margins">
+                    <span class="input-group-text">
+                        Available Stock:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="quantity">
+                </div>
+
+                <button type="submit" class="btn btn-danger buttonPosition">Add Product</button>
+
+            </form>
+        </div>
+    </div>
+</div>

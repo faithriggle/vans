@@ -27,6 +27,8 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AddProductComponent } from './add-product/add-product.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -49,14 +51,16 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     mensTopComponent,
     MensCategoriesComponent,
     ProductCardComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AddProductComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    provideDatabase(() => getDatabase())
+    provideDatabase(() => getDatabase()),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

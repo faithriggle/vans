@@ -8,6 +8,7 @@ import { CartLayoutComponent } from './routing/cart-layout.component';
 import { OrderStatusLayoutComponent } from './routing/order-status-layout.component';
 import { GiftCardLayoutComponent } from './routing/gift-card-layout.component';
 import { MTELayoutComponent } from './routing/mte-layout.component';
+import { AddProductComponent } from './add-product/add-product.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -17,7 +18,8 @@ const routes:Routes = [
   {path: 'cart', component: CartLayoutComponent},
   {path: 'order-lookup', component: OrderStatusLayoutComponent},
   {path: 'gift-card', component: GiftCardLayoutComponent},
-  {path: 'MTE', component: MTELayoutComponent}
+  {path: 'MTE', component: MTELayoutComponent},
+  {path: 'admin', component: AddProductComponent}
 ];
 
 @NgModule({
