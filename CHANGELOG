@@ -59,3 +59,22 @@ New Features:
 4. Fetched data with angular fire instead of HTTPClient 
 
 Bonus Features:
+_____________________________________________________________________________________________________________________________
+LAB 9 RELEASE NOTES
+New Features:
+1. Added products from Men's New Arrivals to firebase 
+2. Created products.service.ts for Men's New Arrivals 
+3. Created form for entering product information - under add-products
+4. Added method to add information to backend 
+5. Programmatically added 3 new products to Men's New Arrivals
+
+Bonus Features:
+1. Created new service for Men's New Arrivals instead of using the one from shopByCards
+_____________________________________________________________________________________________________________________________
+LAB 10 RELEASE NOTES
+New Features:
+1. Enabled firebase authentication 
+2. Created authentication component named "AuthenticationComponent" under the "auth" directory 
+3. Created an authentication service 
+4. Connected authentication component with the service to allow users to be added to the firebase user table 
+Bonus Features: 
