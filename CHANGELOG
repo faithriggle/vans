@@ -70,3 +70,11 @@ New Features:
 
 Bonus Features:
 1. Created new service for Men's New Arrivals instead of using the one from shopByCards
+_____________________________________________________________________________________________________________________________
+LAB 10 RELEASE NOTES
+New Features:
+1. Enabled firebase authentication 
+2. Created authentication component named "AuthenticationComponent" under the "auth" directory 
+3. Created an authentication service 
+4. Connected authentication component with the service to allow users to be added to the firebase user table 
+Bonus Features: 
