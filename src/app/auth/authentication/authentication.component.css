@@ -1,0 +1,24 @@
+.margins {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.sizing {
+    width: 600px;
+}
+
+.buttonPosition {
+    text-align: center;
+    margin-left: 600px;
+    margin-bottom: 20px;
+}
+
+.btn2 {
+    text-align: center;
+    margin-left: 592px;
+    margin-bottom: 20px;
+}

@@ -13,7 +13,7 @@ export class AddProductComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  
   addProduct(product : ProductItemModel) {
     console.log("You clicked add product");
     this.ps.addProduct(product);
